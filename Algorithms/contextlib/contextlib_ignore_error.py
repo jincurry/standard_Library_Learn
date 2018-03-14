@@ -1,0 +1,20 @@
+import contextlib
+
+
+class NonFatalError(Exception):
+    pass
+
+
+def non_idempotent_operation():
+    raise NonFatalError(
+        'the operation failed because of existing state'
+    )
+
+try:
+    print('trying non-idempotent operation')
+    non_idempotent_operation()
+    print('succeeded!')
+except NonFatalError:
+    pass
+
+print('done')
