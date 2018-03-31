@@ -1,0 +1,7 @@
+总用量 24
+drwxrwxr-x 2 king king 4096 3月  31 14:34 .
+drwxrwxr-x 3 king king 4096 3月  31 14:20 ..
+-rw-rw-r-- 1 king king  103 3月  31 14:23 subprocess_os_system.py
+-rw-rw-r-- 1 king king  140 3月  31 14:29 subprocess_run_check.py
+-rw-rw-r-- 1 king king  304 3月  31 14:34 subprocess_run_output.py
+-rw-rw-r-- 1 king king  114 3月  31 14:25 subprocess_shell_variables.py
